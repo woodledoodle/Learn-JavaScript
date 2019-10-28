@@ -94,5 +94,5 @@ Math.max(100, 550, 80, 200, -8, -900);  // returns 550
 Math.random() returns a random number between 0 (inclusive), and 1 (exclusive):
 
 ```javascript
-Math.random();     // returns a random number
+(Math.random() * 100) + 1;     // returns a random integer from 1 to 100
 ```
